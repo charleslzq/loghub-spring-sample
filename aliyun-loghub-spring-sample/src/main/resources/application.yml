@@ -1,0 +1,16 @@
+server:
+  port: 8089
+ali:
+  log-hub:
+    accounts:
+      - accessId:
+        accessKey:
+        projects:
+          - project: charleslzqsample
+            endpoint: http://cn-hangzhou.log.aliyuncs.com
+    consumers:
+      consumerConfig:
+        project: charleslzqsample
+        store: testloghub
+        groupName: testloghub
+        consumerName: testloghub

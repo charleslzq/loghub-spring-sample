@@ -6,7 +6,11 @@
 
     <groupId>com.github.charleslzq</groupId>
     <artifactId>loghub-spring-sample</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>loghub-producer-sample</module>
+    </modules>
 
 
 </project>
